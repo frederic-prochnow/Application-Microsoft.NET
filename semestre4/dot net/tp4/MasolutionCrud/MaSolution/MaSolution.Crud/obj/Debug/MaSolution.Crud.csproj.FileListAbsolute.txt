@@ -1,0 +1,6 @@
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution.Crud\bin\Debug\MaSolution.Crud.exe.config
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution.Crud\obj\Debug\MaSolution.Crud.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution.Crud\obj\Debug\MaSolution.Crud.MainForm.resources
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution.Crud\obj\Debug\MaSolution.Crud.PersonneDetailForm.resources
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution.Crud\obj\Debug\MaSolution.Crud.Properties.Resources.resources
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution.Crud\obj\Debug\MaSolution.Crud.csproj.GenerateResource.Cache

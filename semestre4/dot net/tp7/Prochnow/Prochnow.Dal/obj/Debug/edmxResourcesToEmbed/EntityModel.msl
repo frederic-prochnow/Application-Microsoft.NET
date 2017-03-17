@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EntityModelStoreContainer" CdmEntityContainer="WebApplicationEntities">
+    <EntitySetMapping Name="Auteur">
+      <EntityTypeMapping TypeName="EntityModel.Auteur">
+        <MappingFragment StoreEntitySet="Auteur">
+          <ScalarProperty Name="AuteurId" ColumnName="AuteurId" />
+          <ScalarProperty Name="NomArtiste" ColumnName="NomArtiste" />
+          <ScalarProperty Name="Nom" ColumnName="Nom" />
+          <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Multimedia">
+      <EntityTypeMapping TypeName="EntityModel.Multimedia">
+        <MappingFragment StoreEntitySet="Multimedia">
+          <ScalarProperty Name="MultimediaId" ColumnName="MultimediaId" />
+          <ScalarProperty Name="AuteurId" ColumnName="AuteurId" />
+          <ScalarProperty Name="Titre" ColumnName="Titre" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

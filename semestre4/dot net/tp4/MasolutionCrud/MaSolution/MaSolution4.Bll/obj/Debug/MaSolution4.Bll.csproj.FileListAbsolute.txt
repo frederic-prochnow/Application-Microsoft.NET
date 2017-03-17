@@ -1,0 +1,12 @@
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\MaSolution4.Bll.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\MaSolution4.Bll.pdb
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\MaSolution4.Bo.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\MaSolution4.Dal.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\PersonneData.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\FileDataProvider.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\FileData.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\MaSolution4.Bo.pdb
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\bin\Debug\MaSolution4.Dal.pdb
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\obj\Debug\MaSolution4.Bll.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\obj\Debug\MaSolution4.Bll.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bll\obj\Debug\MaSolution4.Bll.pdb

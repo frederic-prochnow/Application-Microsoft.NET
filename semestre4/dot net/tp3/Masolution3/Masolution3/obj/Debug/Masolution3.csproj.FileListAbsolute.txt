@@ -1,0 +1,6 @@
+E:\semestre4\dot net\tp3\Masolution3\Masolution3\bin\Debug\Masolution3.exe.config
+E:\semestre4\dot net\tp3\Masolution3\Masolution3\bin\Debug\Masolution3.exe
+E:\semestre4\dot net\tp3\Masolution3\Masolution3\bin\Debug\Masolution3.pdb
+E:\semestre4\dot net\tp3\Masolution3\Masolution3\obj\Debug\Masolution3.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp3\Masolution3\Masolution3\obj\Debug\Masolution3.exe
+E:\semestre4\dot net\tp3\Masolution3\Masolution3\obj\Debug\Masolution3.pdb

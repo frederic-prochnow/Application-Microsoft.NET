@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="EntityModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Auteur">
+          <Key>
+            <PropertyRef Name="AuteurId" />
+          </Key>
+          <Property Name="AuteurId" Type="bigint" Nullable="false" />
+          <Property Name="NomArtiste" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Nom" Type="varchar" MaxLength="50" />
+          <Property Name="Prenom" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Multimedia">
+          <Key>
+            <PropertyRef Name="MultimediaId" />
+          </Key>
+          <Property Name="MultimediaId" Type="bigint" Nullable="false" />
+          <Property Name="AuteurId" Type="bigint" Nullable="false" />
+          <Property Name="Titre" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_AUTEURID">
+          <End Role="Auteur" Type="Self.Auteur" Multiplicity="1" />
+          <End Role="Multimedia" Type="Self.Multimedia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Auteur">
+              <PropertyRef Name="AuteurId" />
+            </Principal>
+            <Dependent Role="Multimedia">
+              <PropertyRef Name="AuteurId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="EntityModelStoreContainer">
+          <EntitySet Name="Auteur" EntityType="Self.Auteur" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Multimedia" EntityType="Self.Multimedia" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_AUTEURID" Association="Self.FK_AUTEURID">
+            <End Role="Auteur" EntitySet="Auteur" />
+            <End Role="Multimedia" EntitySet="Multimedia" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="EntityModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Auteur">
+          <Key>
+            <PropertyRef Name="AuteurId" />
+          </Key>
+          <Property Name="AuteurId" Type="Int64" Nullable="false" />
+          <Property Name="NomArtiste" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Nom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Prenom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Multimedia" Relationship="Self.FK_AUTEURID" FromRole="Auteur" ToRole="Multimedia" />
+        </EntityType>
+        <EntityType Name="Multimedia">
+          <Key>
+            <PropertyRef Name="MultimediaId" />
+          </Key>
+          <Property Name="MultimediaId" Type="Int64" Nullable="false" />
+          <Property Name="AuteurId" Type="Int64" Nullable="false" />
+          <Property Name="Titre" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Auteur" Relationship="Self.FK_AUTEURID" FromRole="Multimedia" ToRole="Auteur" />
+        </EntityType>
+        <Association Name="FK_AUTEURID">
+          <End Role="Auteur" Type="Self.Auteur" Multiplicity="1" />
+          <End Role="Multimedia" Type="Self.Multimedia" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Auteur">
+              <PropertyRef Name="AuteurId" />
+            </Principal>
+            <Dependent Role="Multimedia">
+              <PropertyRef Name="AuteurId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="WebApplicationEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Auteur" EntityType="Self.Auteur" />
+          <EntitySet Name="Multimedia" EntityType="Self.Multimedia" />
+          <AssociationSet Name="FK_AUTEURID" Association="Self.FK_AUTEURID">
+            <End Role="Auteur" EntitySet="Auteur" />
+            <End Role="Multimedia" EntitySet="Multimedia" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="EntityModelStoreContainer" CdmEntityContainer="WebApplicationEntities">
+          <EntitySetMapping Name="Auteur">
+            <EntityTypeMapping TypeName="EntityModel.Auteur">
+              <MappingFragment StoreEntitySet="Auteur">
+                <ScalarProperty Name="AuteurId" ColumnName="AuteurId" />
+                <ScalarProperty Name="NomArtiste" ColumnName="NomArtiste" />
+                <ScalarProperty Name="Nom" ColumnName="Nom" />
+                <ScalarProperty Name="Prenom" ColumnName="Prenom" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Multimedia">
+            <EntityTypeMapping TypeName="EntityModel.Multimedia">
+              <MappingFragment StoreEntitySet="Multimedia">
+                <ScalarProperty Name="MultimediaId" ColumnName="MultimediaId" />
+                <ScalarProperty Name="AuteurId" ColumnName="AuteurId" />
+                <ScalarProperty Name="Titre" ColumnName="Titre" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Aucun" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

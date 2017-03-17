@@ -1,0 +1,5 @@
+E:\semestre4\dot net\tp3\Masolution3\Exercice 3\bin\Debug\Exercice 3.exe.config
+E:\semestre4\dot net\tp3\Masolution3\Exercice 3\bin\Debug\Exercice 3.exe
+E:\semestre4\dot net\tp3\Masolution3\Exercice 3\bin\Debug\Exercice 3.pdb
+E:\semestre4\dot net\tp3\Masolution3\Exercice 3\obj\Debug\Exercice 3.exe
+E:\semestre4\dot net\tp3\Masolution3\Exercice 3\obj\Debug\Exercice 3.pdb

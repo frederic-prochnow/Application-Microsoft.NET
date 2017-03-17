@@ -1,0 +1,5 @@
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bo\bin\Debug\MaSolution4.Bo.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bo\bin\Debug\MaSolution4.Bo.pdb
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bo\obj\Debug\MaSolution4.Bo.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bo\obj\Debug\MaSolution4.Bo.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Bo\obj\Debug\MaSolution4.Bo.pdb

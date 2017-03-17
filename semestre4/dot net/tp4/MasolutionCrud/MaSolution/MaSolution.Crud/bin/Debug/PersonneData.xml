@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<ObjectContainerOfPersonneDao xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LastIncrement>7</LastIncrement>
+  <ObjectsList>
+    <PersonneDao>
+      <Identifiant>2</Identifiant>
+      <DateCreation>2017-03-03T17:03:01.9708144+01:00</DateCreation>
+      <DateModification xsi:nil="true" />
+      <Nom>Nom 1</Nom>
+      <Prenom>Prenom1</Prenom>
+      <DateNaissance>2017-03-03T17:03:01.9608+01:00</DateNaissance>
+    </PersonneDao>
+    <PersonneDao>
+      <Identifiant>3</Identifiant>
+      <DateCreation>2017-03-03T17:06:58.818344+01:00</DateCreation>
+      <DateModification xsi:nil="true" />
+      <Nom>Nom 1</Nom>
+      <Prenom>Prenom1</Prenom>
+      <DateNaissance>2017-03-03T17:06:58.8173408+01:00</DateNaissance>
+    </PersonneDao>
+    <PersonneDao>
+      <Identifiant>4</Identifiant>
+      <DateCreation>2017-03-03T17:14:34.9885024+01:00</DateCreation>
+      <DateModification xsi:nil="true" />
+      <Nom>Nom 1</Nom>
+      <Prenom>Prenom1</Prenom>
+      <DateNaissance>2017-03-03T17:14:34.986496+01:00</DateNaissance>
+    </PersonneDao>
+  </ObjectsList>
+</ObjectContainerOfPersonneDao>

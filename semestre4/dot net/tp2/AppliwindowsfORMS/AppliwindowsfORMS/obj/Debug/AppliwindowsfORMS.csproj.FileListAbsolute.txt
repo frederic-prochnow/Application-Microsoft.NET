@@ -1,0 +1,9 @@
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\bin\Debug\AppliwindowsfORMS.exe.config
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\bin\Debug\AppliwindowsfORMS.exe
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\bin\Debug\AppliwindowsfORMS.pdb
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\obj\Debug\AppliwindowsfORMS.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\obj\Debug\AppliwindowsfORMS.Properties.Resources.resources
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\obj\Debug\AppliwindowsfORMS.csproj.GenerateResource.Cache
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\obj\Debug\AppliwindowsfORMS.exe
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\obj\Debug\AppliwindowsfORMS.pdb
+E:\semestre4\dot net\tp2\AppliwindowsfORMS\AppliwindowsfORMS\obj\Debug\AppliwindowsfORMS.Form1.resources

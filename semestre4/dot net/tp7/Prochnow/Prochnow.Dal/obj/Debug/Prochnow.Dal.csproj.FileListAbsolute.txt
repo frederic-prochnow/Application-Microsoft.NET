@@ -1,0 +1,11 @@
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\Prochnow.Dal.dll.config
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\Prochnow.Dal.dll
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\Prochnow.Dal.pdb
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\EntityFramework.dll
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\EntityFramework.SqlServer.dll
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\EntityFramework.xml
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\EntityFramework.SqlServer.xml
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\bin\Debug\fr\EntityFramework.resources.dll
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\obj\Debug\Prochnow.Dal.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\obj\Debug\Prochnow.Dal.dll
+E:\semestre4\dot net\tp7\Prochnow\Prochnow.Dal\obj\Debug\Prochnow.Dal.pdb

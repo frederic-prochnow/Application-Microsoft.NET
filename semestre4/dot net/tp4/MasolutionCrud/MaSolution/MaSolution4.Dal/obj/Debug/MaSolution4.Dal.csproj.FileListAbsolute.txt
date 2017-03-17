@@ -1,0 +1,10 @@
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\obj\Debug\MaSolution4.Dal.csprojResolveAssemblyReference.cache
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\MaSolution4.Dal.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\MaSolution4.Dal.pdb
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\FileData.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\FileDataProvider.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\MaSolution4.Bo.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\PersonneData.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\bin\Debug\MaSolution4.Bo.pdb
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\obj\Debug\MaSolution4.Dal.dll
+E:\semestre4\dot net\tp4\MasolutionCrud\MaSolution\MaSolution4.Dal\obj\Debug\MaSolution4.Dal.pdb
