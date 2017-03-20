@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bo
 {
-    class BoBase
+    public class BoBase
     {
         public long Id { get; set; }
     }

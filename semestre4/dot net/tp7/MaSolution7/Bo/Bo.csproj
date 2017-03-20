@@ -46,12 +46,6 @@
     <Compile Include="MultimediaType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bll\Bll.csproj">
-      <Project>{d20bf719-4af8-4e43-8fbf-ffebe9b12686}</Project>
-      <Name>Bll</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
